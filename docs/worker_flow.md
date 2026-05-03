@@ -1,19 +1,3 @@
-了解、tadaharu。  
-では **`docs/worker_flow.md` の完成版** を、壊れないように **単独ファイルとして完全整形した Markdown** でお渡しするね。
-
-このファイルは以下を満たすように構成してある：
-
-- Worker の役割だけにフォーカス  
-- queue → ContentVersion → DownloadMaster__c → upload-complete の流れを明確化  
-- Mermaid 図はすべて正常動作  
-- README から独立して読める  
-- 保守者・開発者が理解しやすい構成  
-
----
-
-# 📄 **`docs/worker_flow.md`（完成版）**
-
-```markdown
 # Worker Flow
 
 Worker は Storage Server が作成した **queue ジョブを非同期で処理し、  
@@ -130,21 +114,3 @@ stateDiagram-v2
 - Worker のログは `logs/worker.log` に出力  
 - 失敗時は `retry_count` を更新しながら 3 回リトライ  
 
----
-
-# ✔ このファイルの目的
-
-- Worker の内部処理を明確に説明  
-- queue → ContentVersion → DownloadMaster__c → upload-complete の流れを整理  
-- 保守者・開発者が Worker の動作を理解しやすくする  
-```
-
----
-
-次はどれを作る？
-
-- `docs/queue.md`
-- `docs/api_reference.md`
-- `docs/logging.md`
-
-どれでもすぐ作るよ。

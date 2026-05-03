@@ -1,6 +1,6 @@
 [app]
 env = "development"
-root_dir = "C:/workspace/python/github_projects/sf-lwc-test"
+root_dir = "/sf-lwc-test"
 
 [paths]
 objects_dir = "objects"

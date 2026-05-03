@@ -18,14 +18,7 @@
 
 ---
 
-## 2. Architecture
-**全体アーキテクチャ図・構成要素・ディレクトリ構造**
-
-→ [architecture.md](architecture.md)
-
----
-
-## 3. LWC / Apex / CDC Flow
+## 2. LWC / Apex / CDC Flow
 **Salesforce（モック）側の UI → Apex → CDC の動作を詳細に説明**
 
 - LWC の UI フロー  
@@ -38,7 +31,7 @@
 
 ---
 
-## 4. Storage Server Flow
+## 3. Storage Server Flow
 **Storage Server（FastAPI）の内部処理フロー**
 
 - `/download-request` の動作  
@@ -50,7 +43,7 @@
 
 ---
 
-## 5. Worker Flow
+## 4. Worker Flow
 **Worker の内部処理と API 呼び出し順序**
 
 - queue の読み取り  
@@ -62,7 +55,7 @@
 
 ---
 
-## 6. Queue Management
+## 5. Queue Management
 **非同期処理の中心となる queue の仕様**
 
 - ディレクトリ構造  
@@ -74,7 +67,7 @@
 
 ---
 
-## 7. API Reference
+## 6. API Reference
 **Storage / Worker / Mock Salesforce の API 一覧**
 
 - Storage Server API  
@@ -86,7 +79,7 @@
 
 ---
 
-## 8. Logging Guide
+## 7. Logging Guide
 **保守者向けのログの読み方ガイド**
 
 - request_id を軸にした調査方法  
@@ -98,7 +91,7 @@
 
 ---
 
-## 9. Troubleshooting
+## 8. Troubleshooting
 **よくある問題と解決方法**
 
 - Worker が動かない  
