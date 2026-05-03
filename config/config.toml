@@ -1,0 +1,39 @@
+[app]
+env = "development"
+root_dir = "C:/workspace/python/github_projects/sf-lwc-test"
+
+[paths]
+objects_dir = "objects"
+queue_dir = "storage/queue"
+log_dir = "storage/logs"
+
+[worker]
+poll_interval = 0.02
+max_retries = 3
+retry_delay_sec = 1
+
+[salesforce]
+base_url = "http://127.0.0.1:8000"
+api_version = "v60.0"
+client_id = "mock-client-id"
+username = "mock-user@example.com"
+audience = "http://127.0.0.1:8000"
+instance_url = "http://127.0.0.1:8080"
+objects_root = "objects"
+objects_dir = "objects/DownloadMaster__c"
+
+[security]
+sf_private_key = "secret_key/sf_private_key.pem"
+sf_public_key = "secret_key/sf_public_key.pem"
+fernet_key = "FBcQs3ZVqSuBbirHUqgzozaGbN-E6RrD5U-eZX917Vg="
+
+[storage]
+base_url = "http://127.0.0.1:8080"
+
+
+[lwc]
+dist_dir = "salesforce_lwc/dist"
+
+[log]
+output = "logs/app.log"
+level = "INFO"

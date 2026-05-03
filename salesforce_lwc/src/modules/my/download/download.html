@@ -1,0 +1,37 @@
+<template>
+    <div class="app-container">
+        <header class="slds-page-header">
+            <h2 class="slds-text-heading_medium">帳票ダウンロードマスタ</h2>
+            <div class="button-group">
+                <button class="btn-secondary" onclick={handleBack}>戻る</button>
+                <button class="btn-secondary" onclick={refresh}>更新</button>
+            </div>
+        </header>
+
+        <div class="card">
+            <ul class="file-list">
+                <template for:each={records} for:item="record">
+                    <li key={record.id} class="file-item">
+                        <label class="checkbox-container">
+                            <input type="checkbox" data-id={record.id} onchange={handleCheckboxChange} checked={record.checked}>
+                            <span class="checkmark"></span>
+                        </label>
+                        <div class="file-details">
+                            <span class="file-name">{record.filename_disp}</span>
+                            <span class="file-id">{record.id}</span>
+                        </div>
+                        <span class="badge">{record.status}</span>
+                    </li>
+                </template>
+            </ul>
+        </div>
+
+        <div class="footer-actions">
+            <button class="btn-primary" onclick={handleDownloadSelected} disabled={isDownloadDisabled}>
+                ダウンロード
+            </button>
+        </div>
+
+        <my-download-popup visible={showPopup} items={selectedFiles} onclose={handlePopupClose}></my-download-popup>
+    </div>
+</template>

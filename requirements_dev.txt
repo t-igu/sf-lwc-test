@@ -1,0 +1,7 @@
+pytest
+pytest-asyncio
+faker
+reportlab
+openpyxl
+duckdb
+streamlit

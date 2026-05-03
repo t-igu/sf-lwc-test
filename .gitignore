@@ -1,0 +1,39 @@
+# --- Logs ---
+*.log
+*-debug.log
+*-error.log
+logs/*.log
+
+# --- OS specific files ---
+.DS_Store
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# --- Python ---
+__pycache__/
+build/
+.venv/
+
+# --- JavaScript / Node.js ---
+node_modules/
+dist/
+lib/
+coverage/
+tmp/
+.husky/
+
+# --- Project Specific ---
+/**/dist/
+/**/objects/**/*.json
+# 以前の設定では LWC ディレクトリ全体が無視されていましたが、
+# 通常はソースコードを管理するため、必要に応じて調整してください
+
+utils/
+sandbox/
+*.pem
+
+prompt.md
+
+tree.*

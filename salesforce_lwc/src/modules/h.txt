@@ -1,0 +1,37 @@
+フォルダー パスの一覧:  ボリューム Windows
+ボリューム シリアル番号は DE74-F4E1 です
+C:.
+│  h.txt
+│  jsconfig.json
+│  
+└─my
+    ├─about
+    │      about.html
+    │      about.ts
+    │      
+    ├─app
+    │  │  app.css
+    │  │  app.html
+    │  │  app.ts
+    │  │  
+    │  └─__tests__
+    │          app.test.js
+    │          
+    ├─download
+    │      download.css
+    │      download.html
+    │      download.js
+    │      
+    ├─downloadPopup
+    │      downloadPopup.css
+    │      downloadPopup.html
+    │      downloadPopup.js
+    │      
+    └─greeting
+        │  greeting.css
+        │  greeting.html
+        │  greeting.js
+        │  
+        └─__tests__
+                greeting.test.js
+                
