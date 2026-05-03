@@ -111,22 +111,3 @@ MIT License
 (Salesforce® is a trademark of Salesforce, Inc.)
 ```
 
----
-
-# 🎯 この README の特徴
-
-- **トップページは軽量で読みやすい**
-- **プロジェクトの全体像が一瞬で分かる**
-- **詳細は `/docs` に完全分離**
-- **OSS らしい構成で、初見の人が迷わない**
-- **アーキテクチャ図は 1 枚だけに絞っている**
-
----
-
-必要なら：
-
-- README の **英語版（README.en.md）**  
-- GitHub Pages 用の **mkdocs.yml**  
-- README に貼る **プロジェクトバッジ（shields.io）**  
-
-どれでも作るよ。
