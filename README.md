@@ -108,6 +108,5 @@ flowchart TD
 ## 📄 License
 
 MIT License  
-(Salesforce® is a trademark of Salesforce, Inc.)
-```
+
 
